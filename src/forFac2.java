@@ -4,15 +4,18 @@ inverso (quindi se passo il punto di partenza a 6 e gli dico di restituirmi
 3 risultati mi aspetto in uscita [6 5 4] stampati).*/
 public class forFac2 {
     public static void main(String[] args) {
-        int a=3;
-        maxInt(a);
+        int a=7;
+        int b=2;
+        maxInt(a, b);
 
     }
-    public static void maxInt(int x){
-        for(int i=x;i>x-3;i--){
-            int result=i;
-            System.out.println(result);
-        }
+    public static void maxInt(int x, int maxResult){
+
+       for(int i=0;i<maxResult;i++){
+           System.out.println(x);
+           x--;
+
+       }
 
     }
 }
