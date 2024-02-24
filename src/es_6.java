@@ -3,7 +3,7 @@ capisca se un numero è pari o dispari utilizzando solo gli operatori logici.*/
 public class es_6 {
     public static void main(String[] args) {
         int eveNumb=6;
-        System.out.println("se il risultato è 1 il numero è dispari, se 0 è pari");
+        //se il risultato è 1 il numero è dispari, se 0 è pari"
         System.out.println(even(eveNumb));
 
     }
