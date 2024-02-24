@@ -14,8 +14,6 @@ public class arrayfac1 {
     }
     public static int sumArray(int [] randArray){
         int sum=0;
-        for(int i=0;i<randArray.length; i++){
-            sum+=randArray[i];
 
         }
     return sum;
