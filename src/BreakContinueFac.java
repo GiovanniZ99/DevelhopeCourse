@@ -1,4 +1,4 @@
-public class breakContinueFac {
+public class BreakContinueFac {
     public static void main(String[] args) {
         int a = 7;
         numbers(a);
