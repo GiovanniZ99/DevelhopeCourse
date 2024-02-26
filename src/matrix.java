@@ -4,6 +4,7 @@ restituisca la somma degli elementi sulla prima riga*/
 public class matrix {
     public static void main(String[] args) {
         int[][] newMatrix = new int[3][3];
+
         fillMatrix(newMatrix);
         System.out.println(sumMatrix(newMatrix));
     }
