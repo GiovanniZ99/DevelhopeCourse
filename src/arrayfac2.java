@@ -1,7 +1,7 @@
 /*Scrivere un programma che contenga un metodo che permetta di sostituire
 gli elementi duplicati in un array di interi con il valore -1.
 L'array ottenuto dovrà essere stampato a video.*/
-public class arrayFac2 {
+public class arrayfac2 {
     public static void main(String[] args) {
 
         int[] array = {2, 5, 7, 2, 9, 5, 7, 3, 2};
