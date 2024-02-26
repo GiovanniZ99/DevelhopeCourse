@@ -2,10 +2,11 @@
 
 public class es_1 {
     public static void main(String[] args) {
-        int base=4;
-        int height=6;
+        float base = 4;
+        float height = 6;
 
-        int area=base*height/2;
+        float area = base * height / 2;
 
-        System.out.println(area);}
+        System.out.println(area);
     }
+}
