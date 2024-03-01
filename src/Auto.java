@@ -6,11 +6,11 @@ public class Auto {
 
     private double cilindrata;
 
-    public Auto(String marca, String modello, String targa, double cilindrata){
-        this.marca=marca;
-        this.modello=modello;
-        this.targa=targa;
-        this.cilindrata=cilindrata;
+    public Auto(String marca, String modello, String targa, double cilindrata) {
+        this.marca = marca;
+        this.modello = modello;
+        this.targa = targa;
+        this.cilindrata = cilindrata;
     }
 
     public String getMarca() {
