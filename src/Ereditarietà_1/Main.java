@@ -6,8 +6,9 @@ Prova quindi a far stampare il verso di Animale e di Gatto.*/
 package Ereditarietà_1;
 public class Main {
     public static void main(String[] args) {
-    Animale animale1=new Animale();
-    Gatto Figaro=new Gatto();
-        Figaro.faiIlVerso();
+    Animale animale1=new Animale("verso generico");
+    Gatto figaro=new Gatto("miao");
+    animale1.faiIlVerso();
+    figaro.faiIlVerso();
     }
 }
