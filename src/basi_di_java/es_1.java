@@ -1,4 +1,4 @@
-// calcolare l'area di un triangolo e stamparne il valore a schermo
+package basi_di_java;// calcolare l'area di un triangolo e stamparne il valore a schermo
 
 public class es_1 {
     public static void main(String[] args) {
