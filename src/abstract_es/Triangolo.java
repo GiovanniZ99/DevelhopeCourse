@@ -1,4 +1,4 @@
-package Abstract_es;
+package abstract_es;
 
 public class Triangolo extends Forma {
    private float base;
