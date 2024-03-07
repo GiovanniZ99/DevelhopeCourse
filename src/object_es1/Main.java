@@ -1,4 +1,4 @@
-package Object_es1;
+package object_es1;
 
 public class Main {
     public static void main(String[] args) {

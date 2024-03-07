@@ -1,8 +1,8 @@
-package Object_es1;
+package object_es1;
 
 public class Auto2 {
-    private final String marca;
-    private final String modello;
+    private String marca;
+    private String modello;
 
     private final String targa;
 
