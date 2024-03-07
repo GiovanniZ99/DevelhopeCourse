@@ -1,3 +1,5 @@
+package incapsulamento_modificatori;
+
 public class Auto {
     private String marca;
     private String modello;
