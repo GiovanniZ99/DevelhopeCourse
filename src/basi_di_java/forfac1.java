@@ -1,4 +1,4 @@
-/*Scrivi un programma che contenga un metodo che prende in ingresso un valore numerico e
+package basi_di_java;/*Scrivi un programma che contenga un metodo che prende in ingresso un valore numerico e
 restituisca la tabellina aritmetica di quel numero che dovrà essere stampata a video.*/
 
 public class forfac1 {
