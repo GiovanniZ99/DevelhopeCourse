@@ -1,3 +1,5 @@
+package basi_di_java;
+
 /*Scrivere un programma che contenga un metodo che sfrutti il while loop e prenda in
 ingresso 1 valore intero come limite superiore e calcoli la somma di tutti i valori prima
 del limite e la stampi a video.
