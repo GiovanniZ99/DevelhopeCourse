@@ -1,4 +1,4 @@
-package Ereditarietà_1;
+package ereditarietà_1;
 
 public class Gatto extends Animale {
     public Gatto(String verso){

@@ -3,7 +3,7 @@
 la classe Gatto è vuota
 */
 
-package Ereditarietà_1;
+package ereditarietà_1;
 
 public class Animale {
     public String verso;
