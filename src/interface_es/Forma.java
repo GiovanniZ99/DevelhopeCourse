@@ -2,7 +2,7 @@
 Crea poi due sottoclassi Rettangolo e Triangolo che implementano Forma ed implementano il metodo
 per il calcolo dell'area.*/
 
-package Interface_es;
+package interface_es;
 
 interface Forma {
     public float calcolaArea();

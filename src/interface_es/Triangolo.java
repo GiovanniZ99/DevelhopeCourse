@@ -1,4 +1,4 @@
-package Interface_es;
+package interface_es;
 
 public class Triangolo implements Forma {
     float base;

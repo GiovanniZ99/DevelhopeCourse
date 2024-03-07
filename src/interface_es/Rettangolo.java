@@ -1,4 +1,4 @@
-package Interface_es;
+package interface_es;
 
 public class Rettangolo implements Forma{
     float base;
