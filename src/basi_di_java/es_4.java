@@ -1,3 +1,5 @@
+package basi_di_java;
+
 public class es_4 {
     public static void main(String[] args) {
         int number_1=5;
