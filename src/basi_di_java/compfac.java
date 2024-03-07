@@ -1,3 +1,5 @@
+package basi_di_java;
+
 public class compfac {
     public static void main(String[] args) {
     char a='a';
