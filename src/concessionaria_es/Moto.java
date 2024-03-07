@@ -1,4 +1,4 @@
-package Concessionaria_es;
+package concessionaria_es;
 
 public class Moto extends Veicolo{
     boolean cascoObbligatorio = true;

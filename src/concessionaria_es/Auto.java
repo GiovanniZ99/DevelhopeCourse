@@ -1,4 +1,4 @@
-package Concessionaria_es;
+package concessionaria_es;
 
 public class Auto extends Veicolo{
     boolean cinture;
@@ -19,7 +19,7 @@ public class Auto extends Veicolo{
         super(marca, modello, prezzo, tipoDiMotore);
     }
 
-    public boolean isCinture() {
+    public boolean getCinture() {
         return cinture;
     }
 
@@ -27,7 +27,7 @@ public class Auto extends Veicolo{
         this.cinture = cinture;
     }
 
-    public boolean isSensori() {
+    public boolean getSensori() {
         return sensori;
     }
 
@@ -45,6 +45,7 @@ public class Auto extends Veicolo{
 
     @Override
     public int consumoMedio() {
+
         return peso*velocita;
     }
 }
