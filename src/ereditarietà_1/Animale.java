@@ -6,13 +6,13 @@ la classe Gatto è vuota
 package ereditarietà_1;
 
 public class Animale {
-    public String verso;
+    protected String verso;
 
-    public Animale(String verso){
+    protected Animale(String verso){
         this.verso=verso;
     }
 
-    public void faiIlVerso(){
+    protected void faiIlVerso(){
         System.out.println(verso);
     }
 
