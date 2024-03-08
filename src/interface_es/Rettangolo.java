@@ -1,9 +1,9 @@
 package interface_es;
 
 public class Rettangolo implements Forma{
-    float base;
+    private float base;
 
-    float height;
+  private float height;
 
     @Override
     public float calcolaArea() {

@@ -1,9 +1,14 @@
 package interface_es;
 
 public class Triangolo implements Forma {
-    float base;
+    private float base;
 
-    float height;
+   private float height;
+
+    public Triangolo(float base, float height) {
+        this.base = base;
+        this.height = height;
+    }
 
     @Override
     public float calcolaArea() {

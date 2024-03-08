@@ -32,5 +32,7 @@ delle auto presenti.
 public class Main {
     public static void main(String[] args) {
     Auto pandapanna = new Auto ("fiat","panda", 6.7f, TipoDiMotore.IBRIDO);
+    Concessionaria concessionaria= new Concessionaria("GMA MOTORS");
+    concessionaria.printAuto();
     }
 }
