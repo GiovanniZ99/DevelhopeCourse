@@ -6,6 +6,6 @@ Nel main dichiarare un oggetto di tipo Auto.*/
 
 public class Main {
     public static void main(String[] args) {
-    Auto auto1=new Auto("Fiat","Panda","FA346GA", 1.5);
+    Auto auto1=new Auto("Fiat","Panda", "FA346GA", 1.5);
     }
 }
