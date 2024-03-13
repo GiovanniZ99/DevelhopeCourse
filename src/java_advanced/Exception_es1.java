@@ -11,12 +11,17 @@ public class Exception_es1 {
         System.out.print("Inserisci un numero su cui effetuare la verifica " +
                 "del numero nel range [50, 100]: ");
         int inputNum = scanner.nextInt();
-        try {
+       try {
             System.out.println(rangeOfInt(inputNum));
         } catch (IllegalArgumentException e) {
             System.out.println(e.getMessage());
         }
+        finally {
+            scanner.close();
+        }
     }
+       // System.out.println(rangeOfInt(inputNum));
+
 
     public static boolean rangeOfInt(int num) {
         if ((num <= 100 && num >= 50)) {
