@@ -12,7 +12,6 @@ public class Null_es1 {
         Double num2 = null;
         Double den2 = 3.49594;
         numDen(num2, den2);
-
     }
     public static void numDen (Double numeratore, Double denominatore) {
 
@@ -24,7 +23,5 @@ public class Null_es1 {
         }catch (IllegalArgumentException e){
             System.out.println(e.getMessage());
         }
-
-
     }
 }
