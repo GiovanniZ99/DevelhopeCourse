@@ -9,13 +9,13 @@ import java.util.HashSet;
 public class Hashset_es2 {
     public static void main(String[] args) {
 
-        System.out.println(fillHashset());
+        System.out.println(fillAndOpOnHashset());
 
         HashSet <String> newObject = new HashSet<>();
         newObject.add("popoliamo");
         System.out.println(newObject.contains("popoliamo"));
     }
-    public static HashSet<String> fillHashset(){
+    public static HashSet<String> fillAndOpOnHashset(){
        HashSet <String> hashSet = new HashSet<>();
         hashSet.add("3");
         hashSet.add("4");
