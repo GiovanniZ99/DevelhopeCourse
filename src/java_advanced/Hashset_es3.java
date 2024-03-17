@@ -9,24 +9,22 @@ import java.util.HashSet;
 
 public class Hashset_es3 {
     public static void main(String[] args) {
-        System.out.println(operationOnHashset());
+        HashSet<String> hashSet = new HashSet<>();
+        fillHashset(hashSet, "tre");
+        fillHashset(hashSet, "quattro" );
+        removeElementOfHashset(hashSet, "tre");
+        removeElementOfHashset(hashSet, "quattro");
+
+    }
+    public static void fillHashset(HashSet<String> genericHashset, String stringToAdd) {
+        genericHashset.add(stringToAdd);
+        System.out.println(genericHashset);
     }
 
-    public static HashSet<String> operationOnHashset(){
-        HashSet<String> hashSet = new HashSet<>();
-        hashSet.add("tre");
-        hashSet.add("quattro");
-        hashSet.add("cinque");
-        String elementoDaTrovare = "tre";
-        String elementoDaTrovare2 = "quattro";
-        String elementoDaTrovare3 = "cinque";
-
-        if (hashSet.contains (elementoDaTrovare) || hashSet.contains(elementoDaTrovare2)
-                || hashSet.contains(elementoDaTrovare3)) {
-            hashSet.remove(elementoDaTrovare);
-            hashSet.remove(elementoDaTrovare2);
-            hashSet.remove(elementoDaTrovare3);
+    public static void removeElementOfHashset(HashSet<String> genericHashset, String stringToRemove) {
+        if (genericHashset.contains(stringToRemove)) {
+            genericHashset.remove(stringToRemove);
+            System.out.println(genericHashset);
         }
-        return hashSet;
     }
 }
