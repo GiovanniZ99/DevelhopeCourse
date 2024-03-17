@@ -8,19 +8,16 @@ import java.util.HashSet;
 
 public class Hashset_es2 {
     public static void main(String[] args) {
-
-        System.out.println(fillAndOpOnHashset());
-
-        HashSet <String> newObject = new HashSet<>();
-        newObject.add("popoliamo");
-        System.out.println(newObject.contains("popoliamo"));
+        HashSet <String> hashSet = new HashSet<>();
+       fillHashset(hashSet, "tre");
+        System.out.println(elementOfHashset(hashSet, "tre"));
     }
-    public static HashSet<String> fillAndOpOnHashset(){
-       HashSet <String> hashSet = new HashSet<>();
-        hashSet.add("3");
-        hashSet.add("4");
-        hashSet.add("5");
-        return hashSet;
+    public static void  fillHashset(HashSet <String> genericHashset, String stringToAdd){
+        genericHashset.add(stringToAdd);
+        System.out.println(genericHashset);
+    }
+    public static boolean elementOfHashset(HashSet <String> genericHashset, String stringToFind){
+        return (genericHashset.contains(stringToFind));
     }
 }
 
