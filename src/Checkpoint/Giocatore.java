@@ -83,9 +83,6 @@ public class Giocatore {
     public void setPuntiDifesa(int puntiDifesa) {
         this.puntiDifesa = puntiDifesa;
     }
-
-
-
     public java.lang.String[] getInventario() {
         return inventario;
     }
@@ -103,11 +100,8 @@ public class Giocatore {
         if(giocatore.getPuntiDifesa()>this.puntiAttacco){
             giocatore.setSalute(salute);
         }else if(giocatore.getPuntiDifesa()<this.puntiAttacco) {
-            giocatore.setSalute(this.puntiAttacco - giocatore.puntiDifesa);
+            giocatore.setSalute(giocatore.salute - this.puntiAttacco - giocatore.puntiDifesa);
         }
-
-
-
     }
 
     public void status (){
@@ -118,6 +112,4 @@ public class Giocatore {
         System.out.println("Punti Difesa: " + this.puntiDifesa);
         System.out.println("Inventario: " + Arrays.toString(this.inventario));
     }
-
-
 }

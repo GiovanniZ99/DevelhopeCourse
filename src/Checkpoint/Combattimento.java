@@ -33,9 +33,7 @@ public class Combattimento {
                 giocatori[i] = giocatore;
                 break;
             }
-
         }
-
     }
 
     public void rimGiocatore(Giocatore giocatore) {
@@ -46,7 +44,6 @@ public class Combattimento {
             }
             giocatori = temparray;
         }
-
     }
 
     public static void attacco(Giocatore giocatore, Giocatore giocatoreDif) {

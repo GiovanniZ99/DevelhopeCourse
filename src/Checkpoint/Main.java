@@ -56,6 +56,8 @@ combattimento
                 Giovanni.status();
                 Combattimento.attacco(Luigi, Giovanni);
                 Giovanni.status();
+                Combattimento.attacco(Luigi, Giovanni);
+                Giovanni.status();
 
 
             }
