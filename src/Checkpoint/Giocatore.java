@@ -100,7 +100,7 @@ public class Giocatore {
         if(giocatore.getPuntiDifesa()>this.puntiAttacco){
             giocatore.setSalute(salute);
         }else if(giocatore.getPuntiDifesa()<this.puntiAttacco) {
-            giocatore.setSalute(giocatore.salute - this.puntiAttacco - giocatore.puntiDifesa);
+            giocatore.setSalute(giocatore.salute - (this.puntiAttacco - giocatore.puntiDifesa));
         }
     }
 
