@@ -6,7 +6,7 @@ package java_advanced;
 
 public class Null_es1 {
     public static void main(String[] args) {
-        Double num = 5.567;
+        Double num = null;
         Double den = null;
         numDen(num, den);
         Double num2 = null;
@@ -16,7 +16,7 @@ public class Null_es1 {
     public static void numDen (Double numeratore, Double denominatore) {
 
         try{
-            if (numeratore == null || denominatore == null) {
+            if (numeratore == null && denominatore == null) {
               throw new IllegalArgumentException("Numeratore e denominatore non possono essere null");
 
             }

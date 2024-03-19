@@ -20,7 +20,7 @@ public class Giocatore {
         this.salute = salute;
         this.puntiAttacco = puntiAttacco;
         this.puntiDifesa = puntiDifesa;
-        this.inventario = inventario;
+        this.inventario = new String [10];
     }
 
     public Giocatore(String nome,Razza razza, int x, int y) {
