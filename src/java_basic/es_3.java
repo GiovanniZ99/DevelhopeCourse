@@ -5,8 +5,7 @@ public class es_3 {
     public static void main(String[] args) {
         String hello = "hello";
         System.out.println("la lunghezza della stringa è:");
-
-
+        System.out.println(length(hello));
     }
 
     public static int length(String a) {
