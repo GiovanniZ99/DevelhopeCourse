@@ -6,7 +6,6 @@ Creare un ArrayList con 12 elementi e stamparlo in console.
 Mettere in ordine la collezione e stampare il risultato*/
 
 import java_advanced.arraylist_1.Student;
-
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
