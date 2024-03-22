@@ -10,7 +10,6 @@ public class ifelseFac {
             System.out.println(i);
             System.out.println(value(i));
         }
-
     }
 
     public static String value(int x) {
