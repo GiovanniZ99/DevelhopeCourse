@@ -1,5 +1,6 @@
-package java_basic;/*Scrivi un programma che contenga un metodo che prende in ingresso un valore numerico e
-restituisca la tabellina aritmetica di quel numero che dovrà essere stampata a video.*/
+package java_basic;
+/* Scrivi un programma che contenga un metodo che prende in ingresso un valore numerico e
+restituisca la tabellina aritmetica di quel numero che dovrà essere stampata a video. */
 
 public class forfac1 {
     public static void main(String[] args) {
