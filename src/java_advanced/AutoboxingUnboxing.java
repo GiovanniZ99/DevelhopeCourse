@@ -1,11 +1,10 @@
+package java_advanced;
 /* Scrivere una funzione che accetti in input 2 int e ne stampi la somma
-Scrivere una funzione che accetti in input 1 char lo stampi
+Scrivere una funzione che accetti in input 1 char e lo stampi
 Scrivere una funzione che accetti in input 2 Integer e ne stampi la somma
-Scrivere una funzione che accetti in input 1 Character lo stampi
+Scrivere una funzione che accetti in input 1 Character e lo stampi
 Scrivere un un valore primitivo per int, double e char e fare autoboxing
 Scrivere un oggetto per Integer, Double e Character e fare Unboxing */
-
-package java_advanced;
 public class AutoboxingUnboxing {
     public static void main(String[] args) {
         int primitive = 5;
