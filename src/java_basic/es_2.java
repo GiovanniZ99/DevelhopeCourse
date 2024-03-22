@@ -1,4 +1,6 @@
-package java_basic;// Dati due caratteri, restituire la somma dei loro valori ASCII
+package java_basic;
+
+// Dati due caratteri, restituire la somma dei loro valori ASCII
 
 public class es_2 {
     public static void main(String[] args) {
