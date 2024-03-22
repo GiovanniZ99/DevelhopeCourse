@@ -1,8 +1,8 @@
 package java_basic;
 
-/*Scrivere un programma che contenga un metodo che permette di inizializzare
+/* Scrivere un programma che contenga un metodo che permette di inizializzare
 una matrice riempita con dei valori a vostro piacimento e
-restituisca la somma degli elementi sulla prima riga*/
+restituisca la somma degli elementi sulla prima riga */
 public class matrix {
     public static void main(String[] args) {
         int[][] newMatrix = new int[3][3];
