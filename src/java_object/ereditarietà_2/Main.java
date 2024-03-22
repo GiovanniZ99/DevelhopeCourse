@@ -4,7 +4,7 @@ Crea poi una sottoclasse chiamata Rettangolo che fa override del metodo calcolaA
 per calcolare l'area del rettangolo. Crea un enum che dica di che tipo è la forma.
 */
 
-package java_advanced.ereditarietà_2;
+package java_object.ereditarietà_2;
 
 public class Main {
     public static void main(String[] args) {

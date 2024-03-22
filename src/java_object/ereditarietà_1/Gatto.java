@@ -1,4 +1,4 @@
-package java_advanced.ereditarietà_1;
+package java_object.ereditarietà_1;
 
 public class Gatto extends Animale {
     protected Gatto(String verso){

@@ -1,7 +1,7 @@
 /*Scrivere un programma che contenga un'interfaccia Forma ed un metodo chiamato calcolaArea().
 Crea poi due sottoclassi Rettangolo e Triangolo che implementano Forma ed implementano il metodo
 per il calcolo dell'area.*/
-package java_advanced.interface_es;
+package java_object.interface_es;
 
 public class Main {
     public static void main(String[] args) {

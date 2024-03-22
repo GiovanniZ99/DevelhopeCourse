@@ -1,4 +1,4 @@
-package java_advanced.object_es1;
+package java_object.object_es1;
 
 public class Auto2 {
     private String marca;

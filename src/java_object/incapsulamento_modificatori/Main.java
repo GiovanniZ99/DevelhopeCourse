@@ -1,4 +1,4 @@
-package java_advanced.incapsulamento_modificatori;
+package java_object.incapsulamento_modificatori;
 /*Scrivere un programma che contenga una classe che definisce un Auto che abbia
 come proprietà cilindrata, targa, marca e modello.
 Per questa classe saranno necessari i metodi accessori (getters e setters) ed un costruttore.

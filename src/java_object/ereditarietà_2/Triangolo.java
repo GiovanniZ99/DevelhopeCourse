@@ -3,7 +3,7 @@ aggiungere una ulteriore classe chiamata Triangolo supportando poi il calcolo de
 figura
 */
 
-package java_advanced.ereditarietà_2;
+package java_object.ereditarietà_2;
 
 public class Triangolo extends Forma {
     float base;

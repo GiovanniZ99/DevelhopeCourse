@@ -1,5 +1,7 @@
 package java_object.abstract_es;
 
+import java_object.abstract_es.Forma;
+
 public class Rettangolo extends Forma {
     private float base;
 

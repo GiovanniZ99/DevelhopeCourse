@@ -1,4 +1,4 @@
-package java_advanced.checkpoint_1;
+package java_object.checkpoint_1;
 
 public class Auto {
     private String Marca;

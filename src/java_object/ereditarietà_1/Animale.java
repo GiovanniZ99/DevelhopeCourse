@@ -3,7 +3,7 @@
 la classe Gatto è vuota
 */
 
-package java_advanced.ereditarietà_1;
+package java_object.ereditarietà_1;
 
 public class Animale {
     protected String verso;

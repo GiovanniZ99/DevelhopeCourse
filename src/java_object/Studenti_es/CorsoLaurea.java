@@ -1,4 +1,4 @@
-package java_advanced.Studenti_es;
+package java_object.Studenti_es;
 
 public class CorsoLaurea {
     private String nome;

@@ -1,4 +1,4 @@
-package java_advanced.checkpoint_1;
+package java_object.checkpoint_1;
 
 public class Concessionaria {
     private String nome;

@@ -1,4 +1,4 @@
-package java_advanced.Studenti_es;
+package java_object.Studenti_es;
 
 public class Main {
     public static void main(String[] args) {

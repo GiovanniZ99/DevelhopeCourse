@@ -1,4 +1,4 @@
-package java_advanced.object_es1;
+package java_object.object_es1;
 
 public class Main {
     public static void main(String[] args) {

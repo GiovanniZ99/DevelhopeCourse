@@ -1,4 +1,4 @@
-package java_advanced.object_es2;
+package java_object.object_es2;
 
 public class Studente {
     private String nome;

@@ -1,4 +1,4 @@
-package java_advanced.ereditarietà_2;
+package java_object.ereditarietà_2;
 
 public class Rettangolo extends Forma {
    public float base;

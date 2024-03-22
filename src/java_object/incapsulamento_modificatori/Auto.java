@@ -1,4 +1,4 @@
-package java_advanced.incapsulamento_modificatori;
+package java_object.incapsulamento_modificatori;
 
 public class Auto {
     private String marca;

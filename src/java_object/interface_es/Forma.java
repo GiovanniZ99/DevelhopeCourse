@@ -1,4 +1,4 @@
-package java_advanced.interface_es;
+package java_object.interface_es;
 
 interface Forma {
     public float calcolaArea();
