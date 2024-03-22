@@ -1,5 +1,5 @@
 package java_basic;
-//Definire una funzione che accetti in ingresso 2 interi e ne restituisca la somma.
+// Definire una funzione che accetti in ingresso 2 interi e ne restituisca la somma.
 
 
 public class functionfac {
@@ -21,6 +21,5 @@ public class functionfac {
     // nel video della soluzione fa la media quindi
         return (x+y+z)/3;
         //update il video della media è invertito con quello della divisione
-
     }
 }
