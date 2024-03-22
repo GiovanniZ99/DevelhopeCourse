@@ -11,9 +11,7 @@ Matrice risultato
 
 public class matrix2 {
     public static void main(String[] args) {
-
         fillChangeMatrix();
-
     }
 
 
@@ -35,11 +33,8 @@ public class matrix2 {
                 System.out.print(changedMatrix[i][j] + " ");
             }
             System.out.println();
-
         }
     }
-
-
 }
 
 
