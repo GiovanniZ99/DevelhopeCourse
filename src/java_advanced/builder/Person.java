@@ -1,4 +1,4 @@
-package builder;
+package java_advanced.builder;
 
 public class Person {
     private String firstName;
