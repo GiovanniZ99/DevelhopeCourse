@@ -1,7 +1,7 @@
 package java_advanced.builder;
 public class PersonBuilder {
-    private final String firstName;
-    private final String lastName;
+    private String firstName;
+    private String lastName;
     private int age;
     private String address;
 
