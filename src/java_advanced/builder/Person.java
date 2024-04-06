@@ -11,7 +11,6 @@ public class Person {
         this.age = builder.getAge();
         this.address = builder.getAddress();
     }
-
     public String getFirstName() {
         return firstName;
     }
