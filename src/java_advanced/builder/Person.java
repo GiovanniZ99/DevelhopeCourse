@@ -6,6 +6,8 @@ public class Person {
     private int age;
     private String address;
     public Person(PersonBuilder builder) {
+        this.firstName = builder.getFirstName();
+        this.lastName = builder.getLastName();
         this.age = builder.getAge();
         this.address = builder.getAddress();
     }
