@@ -1,4 +1,4 @@
-package Checkpoint;
+package checkpoint;
 
 /*) Definire una classe "Giocatore" che abbia i seguenti attributi:
 - Nome

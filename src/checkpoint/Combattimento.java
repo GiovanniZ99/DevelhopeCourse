@@ -1,4 +1,4 @@
-package Checkpoint;
+package checkpoint;
 
 import java.util.Arrays;
 

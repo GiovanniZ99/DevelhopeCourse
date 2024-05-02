@@ -1,4 +1,4 @@
-package Checkpoint;
+package checkpoint;
 
 public enum Modalita {
     ONEVSONE,
